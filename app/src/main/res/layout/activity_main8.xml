@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main8Activity"
+    android:background="@drawable/menu"
+    >
+
+    <Button
+        android:id="@+id/bmi_btn"
+        android:layout_width="308dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="224dp"
+
+        android:background="@drawable/rectangle"
+        android:text="BMI CAlCULATOR"
+        android:textColor="#4E57C7"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Wrt_btn" />
+
+    <Button
+        android:id="@+id/HS_btn"
+        android:layout_width="308dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="136dp"
+        android:background="@drawable/rectangle"
+        android:text="HEALTH STATUS"
+        android:textColor="#4E57C7"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Wrt_btn" />
+
+    <Button
+        android:id="@+id/Wrt_btn"
+        android:layout_width="308dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="284dp"
+        android:background="@drawable/rectangle"
+        android:text="WRITE PRESCRIPTION"
+        android:textColor="#4E57C7"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/AP"
+        android:layout_width="308dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/rectangle"
+        android:text="ALL PRESCRIPTIONS"
+        android:textColor="#4E57C7"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Wrt_btn" />
+</androidx.constraintlayout.widget.ConstraintLayout>
